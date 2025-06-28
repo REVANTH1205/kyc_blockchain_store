@@ -1,0 +1,49 @@
+.user-details-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .user-details-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .user-details-container p {
+    font-size: 16px;
+    margin-bottom: 0.75rem;
+    color: #555;
+  }
+
+  .user-details-container .verified-info {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #28ba51; /* Green color for verified info */
+    margin-top: 25px;
+    text-align: left; /* Center the verified info */
+  }
+
+  .user-details-container strong {
+    color: #222;
+  }
+  
+  .download-button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3;
+  }
+  

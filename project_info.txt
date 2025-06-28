@@ -1,0 +1,21 @@
+The Project is about the KYC storing in BLOCKCHAIN
+
+the user can store the details of ::
+1. Name
+2. email
+3. phone Number
+4. Date of Birth 
+5. Aadhar Number  
+6. PAN Number
+7. aadhar card file ( image or pdf -- any format ) 
+8. PAN card file ( image or pdf  )
+
+after that the user click the "upload User data " and the metamask will open for the transaction . once user click the "conform" in the metamask transaction , the detsilas will be saved in the blockchain ( the aadhar and PAN card files are stored in the Pinata IPFS and hashes are stored inthe blockchian  )
+
+once uploaded, the user can click the "Show User Data " button which will redirect to the another page that will show the information 
+
+once the user click the "verify" button , the OTP is ssended to the email and once the user enter the OTP , the program will generate a link which the user can share to others which contains the user KYC information
+
+" * { Right now the link is a local-link meaning we cannt share it to the user the computer , once we deploy it in the cloud like vercel , it will generate a public link where we can share it to all   } * "
+
+" * { One metamask account user can only upload his information only one time and cannot upload a information for the seconf time } * "

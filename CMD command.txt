@@ -1,0 +1,5 @@
+Open the folder in the CMD and type these command::
+
+
+set NODE_OPTIONS=--openssl-legacy-provider 
+npm start   
